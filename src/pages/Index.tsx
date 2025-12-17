@@ -67,9 +67,11 @@ export default function Index() {
               <MenuItem name="Чай пакетированный" volume="400 мл" price="120 ₽" />
             </div>
             <div className="flex justify-center">
-              <div className="w-32 h-32 bg-gold/20 rounded-full flex items-center justify-center">
-                <span className="text-6xl">🫖</span>
-              </div>
+              <img 
+                src="https://cdn.poehali.dev/projects/2f9ab6bb-0981-4fbf-adee-8f7cd7e4c456/files/38a0902c-813b-43ea-8ff5-dd60fb452f12.jpg" 
+                alt="Облепиховый чай"
+                className="w-40 h-40 object-cover rounded-full border-4 border-gold/30 shadow-lg"
+              />
             </div>
           </section>
 
@@ -79,7 +81,11 @@ export default function Index() {
                 <h2 className="font-display text-5xl text-gold mb-2">Классика</h2>
                 <div className="h-1 w-32 bg-gold/50 rounded-full"></div>
               </div>
-              <div className="text-5xl">☕</div>
+              <img 
+                src="https://cdn.poehali.dev/projects/2f9ab6bb-0981-4fbf-adee-8f7cd7e4c456/files/fa3c1a05-bc6a-4db7-9f7c-3ea5db84009b.jpg" 
+                alt="Кофе"
+                className="w-16 h-16 object-cover rounded-full border-2 border-gold/30"
+              />
             </div>
             <div className="space-y-3 font-body text-lg">
               <MenuItem name="Эспрессо" volume="30 мл" price="120 ₽" />
